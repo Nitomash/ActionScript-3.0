@@ -1,0 +1,8 @@
+import tumblr.nitomash.BBcodes.Gameplay;
+
+stop();
+
+var gameplay:Gameplay = new Gameplay();
+addChild(gameplay);
+
+gameplay.game();
